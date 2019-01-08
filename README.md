@@ -22,7 +22,7 @@ An [accession number](https://www.ncbi.nlm.nih.gov/genbank/sequenceids/) is a un
 3. Explore the results of the BLAST search. Click on the accession number of the top hit. What do you think this sequence is? Who did it come from? 
 
 ### Part 1 - Creating a Multiple Sequence Alignment (MSA)
-You have multiple samples from the victim, other patients under the doctor’s care, and other HIV positive individuals. How can you use these sequences to trace the source of the victim’s infection? You need to compare the similarities and differences between the sequences, but how do we do that? 
+You now know that you have sequences from multiple samples and different sources. You need to compare the similarities and differences between the sequences, but how do we do that? 
 
 
 ![alt text](https://github.com/hdehart/HIV_Workshop/blob/master/grapefruit.png) ![alt text](https://github.com/hdehart/HIV_Workshop/blob/master/orange.png)
