@@ -9,7 +9,7 @@ The workshop will analyze DNA sequence data to identify the gene(s) involved and
 5. Interpret your phylogenetic estimate relative to the forensics case
 
 ### Part 0 - Looking at Sequence Data
-1.	Take a look at the [sequence data](Bioinformatic_workshops/whodunit_workshop/whodunit_data_subset.fas). This dataset contains multiple sequences in [FASTA](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp) format. This is a standard format for DNA sequence data developed by [David Lipman](http://www.people.virginia.edu/~wrp/) and [William Pearson](https://www.amia.org/about-amia/leadership/acmi-fellow/david-j-lipman-md-facmi). Copy the first nucleotide sequence. Each sequence starts with a title to separate it from others in the same file:
+1.	Take a look at the [sequence data](whodunit_data_subset.fas). This dataset contains multiple sequences in [FASTA](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp) format. This is a standard format for DNA sequence data developed by [David Lipman](http://www.people.virginia.edu/~wrp/) and [William Pearson](https://www.amia.org/about-amia/leadership/acmi-fellow/david-j-lipman-md-facmi). Copy the first nucleotide sequence. Each sequence starts with a title to separate it from others in the same file:
 
 \>**AY156858.1**\_*V01*
 
@@ -25,7 +25,7 @@ An [accession number](https://www.ncbi.nlm.nih.gov/genbank/sequenceids/) is a un
 You now know that you have sequences from multiple samples and different sources. You need to compare the similarities and differences between the sequences, but how do we do that? 
 
 
-![alt text](Bioinformatic_workshops/whodunit_workshop/grapefruit.png) ![alt text](Bioinformatic_workshops/whodunit_workshop/orange.png)
+![alt text](whodunit_grapefruit.png) ![alt text](whodunit_orange.png)
 
 *[source](https://commons.wikimedia.org/wiki/User:Evan-Amos/Food)*
 
@@ -45,9 +45,9 @@ This is why we create multiple sequence alignments! Lining up the sequences help
 
 ### Part 2 - Estimating Phylogenetic Relationships and Trees
 
-Now that the sequences are [aligned](Bioinformatic_workshops/whodunit_workshop/whodunit_data_aligned.fas) and we can see all the similarities and differences, we need to determine which ones are more and less alike. How can we do that? Let's think back to the fruits...
+Now that the sequences are [aligned](whodunit_data_aligned.fas) and we can see all the similarities and differences, we need to determine which ones are more and less alike. How can we do that? Let's think back to the fruits...
 
-![alt text](Bioinformatic_workshops/whodunit_workshop/fruit_tree.PNG)
+![alt text](whodunit_fruit_tree.PNG)
 
 Think about some charactersitics that are shared among different types of fruits. All fruits are more similar to each other than they are to a vegetable, like an onion. Within fruits however, some are more closely related because of shared characteristics. For example, the orange and grapefruit are more similar to each other than either is to an apple, because they are citrus fruits. Peaches and cherries are more similar to each other than either is to the apple, because they only have a single pit. 
 
