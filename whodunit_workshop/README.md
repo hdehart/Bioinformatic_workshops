@@ -8,6 +8,9 @@ The workshop will analyze DNA sequence data to identify the gene(s) involved and
 4. Estimate a Neighbor-Joining phylogeny
 5. Interpret your phylogenetic estimate relative to the forensics case
 
+### Scenario
+You are a researcher in a forensics laboratory. You are contacted by a lawyer representing a victim who accuses her physician of intentionally infecting her with the Human Immunodeficiency Virus (HIV) after their romantic relationship ended. After receiving a vitamin B-12 injection from this doctor, the victim tested positive for HIV. The lawyer alleges that the shot contained infected blood from other HIV positive patients under the doctor’s care. Using HIV sequences from victim, patients of the doctor, and other people in the area, it is up to you to determine if the victim could have contracted HIV from her doctor’s shot or some other source.
+
 ### Part 0 - Looking at Sequence Data
 1.	Take a look at the [sequence data](whodunit_workshop_data/whodunit_data_subset.fas). This dataset contains multiple sequences in [FASTA](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp) format. This is a standard format for DNA sequence data developed by [David Lipman](https://www.amia.org/about-amia/leadership/acmi-fellow/david-j-lipman-md-facmi) and [William Pearson](http://www.people.virginia.edu/~wrp/). Copy the first nucleotide sequence. Each sequence starts with a title to separate it from others in the same file:
 
@@ -33,7 +36,7 @@ Look at these 2D pictures of a grapefruit and an orange. Are there differences y
 
 This is why we create multiple sequence alignments! Lining up the sequences helps us determine the similarities and differences among sequences. We do this quickly by using alignment software.
 
-1.	Go to the [MAFFT alignment online software](https://mafft.cbrc.jp/alignment/server/) and explore some ways to create a multiple sequence alignment. If you change default settings, compare with others and see if and what parameters make a big difference in the alignments you create.
+1.	Go to the [MAFFT alignment online software](https://mafft.cbrc.jp/alignment/server/) and explore some ways to create a multiple sequence alignment using all of the [sequence data](whodunit_workshop_data/whodunit_data_subset.fas). If you change default settings, compare with others and see if and what parameters make a big difference in the alignments you create.
 2.	Look at the different ways the sequences were aligned. At the bottom of each alignment, there are symbols to indicate shared and different amino acid bases.
 
 |Symbol|Meaning|
@@ -58,8 +61,6 @@ Let’s think about our HIV sequences the same way by estimating a phylogenetic 
 6.	Look at the tree you made. Do you see any groupings of sequences? Which sequence groups do you think are more or less closely related? Why? 
 
 ### Part 3 - Solve a Crime...
-
-You are a researcher in a forensics laboratory. You are contacted by a lawyer representing a victim who accuses her physician of intentionally infecting her with the Human Immunodeficiency Virus (HIV) after their romantic relationship ended. After receiving a vitamin B-12 injection from this doctor, the victim tested positive for HIV. The lawyer alleges that the shot contained infected blood from other HIV positive patients under the doctor’s care. Using HIV sequences from victim, patients of the doctor, and other people in the area, it is up to you to determine if the victim could have contracted HIV from her doctor’s shot or some other source.
 
 1. Create a new hypothesis. If the doctor **DID** infect the victim, do you think her HIV sequences will be more or less similar to other HIV positive patients than they would be to random HIV positive individuals? Why?
 2.	Go back to your original BLAST results. Click on accession number AY156858.1.  Hit the second [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/) link (to the PNAS paper).  Where does this take you? 
