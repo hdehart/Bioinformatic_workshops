@@ -36,7 +36,7 @@ Look at these 2D pictures of a grapefruit and an orange. Are there differences y
 
 This is why we create multiple sequence alignments! Lining up the sequences helps us determine the similarities and differences among sequences. We do this quickly by using alignment software.
 
-1.	Go to the [MAFFT alignment online software](https://mafft.cbrc.jp/alignment/server/) and explore some ways to create a multiple sequence alignment using all of the [sequence data]((whodunit_workshop_data/whodunit_data_subset.fas). If you change default settings, compare with others and see if and what parameters make a big difference in the alignments you create.
+1.	Go to the [MAFFT alignment online software](https://mafft.cbrc.jp/alignment/server/) and explore some ways to create a multiple sequence alignment using all of the [sequence data](whodunit_workshop_data/whodunit_data_subset.fas). If you change default settings, compare with others and see if and what parameters make a big difference in the alignments you create.
 2.	Look at the different ways the sequences were aligned. At the bottom of each alignment, there are symbols to indicate shared and different amino acid bases.
 
 |Symbol|Meaning|
