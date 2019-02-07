@@ -19,7 +19,7 @@ You are a researcher in a forensics laboratory. You are contacted by a lawyer re
 ![alt text](whodunit_workshop_data/theory.PNG)
 *DNA is transcribed into RNA, which is then translated into amino acids. These amino acids are strung together into polypeptide chains.*
 
-Each sequence starts with a title to separate it from others in the same file:
+Now that we have determined what format our sequences are, how can we determine the names? Each sequence starts with a title to separate it from others in the same file:
 
 \>**AY156858.1**\_*Vic01*
 
@@ -75,7 +75,7 @@ Let’s think about our HIV sequences the same way by estimating a phylogenetic 
 
 ### Part 3 - Solve a Crime...
 
-1. Create a new hypothesis. If the doctor **DID** infect the victim, do you think her HIV sequences will be more or less similar to other HIV positive patients than they would be to random local HIV positive individuals? Why?
+1. Think about possible outcomes of this scenario and how that will affect the tree you just estimated. How do the relationships between the victims's samples, patient samples, and Louisiana control samples help us understand possible guilt in this case?
 
 #### Here are two hypotheses:
 
